@@ -1,6 +1,5 @@
----
-layout: post
-title: Hello from NYC
----
+<p>layout: post
+ title: Hello from NYC</p>
+
 
 This is the first post on the blog. Let's check it.
