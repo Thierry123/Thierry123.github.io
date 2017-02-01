@@ -24,7 +24,7 @@ After inspection, the data required very little cleaning. I decided to discard t
 The data types were changed to integer for the three numerical columns (Rate, Verbal, Math), in order to facilitate mathematical operations and plotting.
 The table below describes the main statistics for the three columns.
 
-![Data description table]('./images/describe_data.png')
+![Data description table](./images/describe_data.png)
 
 ### Plotting the data
 
@@ -39,12 +39,12 @@ I will make the following observations:
   - The Rate of Participation can be divided into two distinct subsets: one subset with high participation (between 51 and 82%), mainly representing the coasts, and another subset with low participation (between 4 and 34%), mainly representing the Heartland.
   - Both SATs have a similar plot, with bimodal distributions. Their coefficient of correlation are high (0.90), meaning that students who do well/poorly on one subject tend to do well/poorly on the other (if that conclusion can be drawn from state averages.)
  
- ![Bubble plot]('./images/scatterplotVerbalMath.png')
+ ![Bubble plot](./images/scatterplotVerbalMath.png)
 
   - The SATs are negatively correlated to the Rate of Participation. In the figure above, the size of the bubbles on the scatter plot represent the Rate of Participation. The negative correlation is very clear: a grouping of low scores/high participation in the bottom left quadrant and another grouping of high scores/low participation in the upper right quadrant.
   - The heat maps give us a wonderful illustration of the coasts vs. the Heartland phenomenon. In the image below, the contrast is flagrant between the two areas.
 
-<img style=\"float: middle;\" src='./images/RateHeatMap.png' width=\"600\"> 
+![Heat Map](./images/RateHeatMap.png)
 
 ### Conclusion
 
