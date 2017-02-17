@@ -3,7 +3,7 @@ layout: post
 title: House Prices in Ames, IA
 ---
 
-![Image](../images/Ames-Iowa-1935.jpg)
+![Image](../images/Ames-Iowa-1935.png)
 
 ### Introduction
 
