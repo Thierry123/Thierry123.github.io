@@ -52,7 +52,7 @@ In order to eliminate some additional features (and reduce the overfitting), I c
 
 The Real Estate market in Ames, IA was quite resilient during the bursting of the housing bubble. The neighborhoods of Northridge, Northridge Heights and Stone Brook attracted the best prices, while North Ames, College Creek and Old Town saw the most sales. 
 
-I hope you enjoyed the read. You can consult my Jupyter Notebook ![here](https://git.generalassemb.ly/Thierry123/project-3-house-prices/blob/master/Project-3-housing.ipynb)
+I hope you enjoyed the read. You can consult my Jupyter Notebook [here](https://git.generalassemb.ly/Thierry123/project-3-house-prices/blob/master/Project-3-housing.ipynb)
 
 
 
