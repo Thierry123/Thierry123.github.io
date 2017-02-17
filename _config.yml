@@ -8,7 +8,7 @@ name: Thierry's Data Blog
 description: Data Science as seen from NY
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: <img src="https://github.com/Thierry123/Thierry123.github.io/blob/master/images/data-brain.png" width="20">
+avatar: <img src="../images/data-brain.png" width="20">
 
 #
 # Flags below are optional
