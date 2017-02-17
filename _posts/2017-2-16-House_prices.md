@@ -31,7 +31,7 @@ Since the data set covered the bursting of the housing bubble and the 2007-2009 
 
 This plot identifies a few outliers. The neighborhood averages made it clear that prices in Ames are not uniform, with Meadow Village below $100k and Northridge at $335k. For the purpose of designing my model, I will eliminate outliers on a neighborhood basis, specifically the sales above their neighborhood average plus two standard deviations.
 
-The 'LotArea' column also requires some cleaning with outliers. The box plot below demonstrates that the vast majority of the lots are under 20,000 sq.ft. while a few exceptions reach north of 100,000 sq.ft. This time, the elimination will be based on a town-wide average plus two standard deviations.
+The 'LotArea' column also requires some cleaning with outliers. The box plot below demonstrates that the vast majority of the lots are under 20,000 sq.ft. while a few exceptions reach north of 100,000 sq.ft. I will apply the same process, based on a neighborhood average plus two standard deviations.
 
 ![Image](../images/ames_lotarea_boxplot.png)
 
@@ -41,9 +41,9 @@ Five more categorical variables were then converted to dummies ('Neighborhood', 
 
 ### Modeling the data
 
-I started with statsmodels and sklearn linear regressions. They provide the same results, but both were useful for different reasons for my next step. At this stage, the r^2 is at 0.891, which seems excellent and might be overfitting.
+I started with statsmodels and sklearn linear regressions. They provide the same results, but both were useful for different reasons for my next step. At this stage, the r^2 is at 0.892, which seems excellent and might be overfitting.
 
-In order to eliminate some additional features (and reduce the overfitting), I compared the p-values from the statsmodels linear regression. One feature with high p-values and what I considered as low contributions (feature coeff * feature avg value) was eliminated: RoofStyle and RoofMaterial. The linear regression was run again and resulted in an r^2 of 0.889. The cross-validation (5 folds) resulted in an r^2 of 0.878. Below is a scatter plot of the actual sale prices vs. predicted, as per the second iteration of the model.
+In order to eliminate some additional features (and reduce the overfitting), I compared the p-values from the statsmodels linear regression. One feature with high p-values and what I considered as low contributions (feature coeff * feature avg value) was eliminated: MoSold, RoofStyle and RoofMaterial. The linear regression was run again and resulted in an r^2 of 0.891. The cross-validation (5 folds) resulted in an r^2 of 0.881. Below is a scatter plot of the actual sale prices vs. predicted, as per the second iteration of the model.
 
 ![Image](../images/ames_act_pred.png)
 
