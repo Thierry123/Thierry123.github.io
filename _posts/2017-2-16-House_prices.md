@@ -3,6 +3,8 @@ layout: post
 title: House Prices in Ames, IA
 ---
 
+![Image](../images/Ames-Iowa-1935.jpg)
+
 ### Introduction
 
 This is the third week's project in DSI-GA and it covers the Real Estate (RE) market in Ames, IA.
