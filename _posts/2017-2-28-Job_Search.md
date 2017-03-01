@@ -25,6 +25,8 @@ Pressed by time, I was only able to gather 5,000 job descriptions. Time to move 
 
 The salary data was made of strings such as 'Est.Salary 88k-124k'. A little cleaning was required to obtain floats and I decided to keep the mid-point of those numbers. 
 
+![Salaries](../images/glassdoor_salaries.png)
+
 Similarly, the company names required some string manipulation to get an satisfying set.
 
 The job title didn't require any work, but I decided to add a column based on keywords present in the job title that denote of a senior (high-paying), a junior (low-paying) position or something in between.
@@ -46,7 +48,7 @@ A grid search with L1. and L2 penalties revealed that the main features are the 
 
 A plot of the ROC, for your enjoyment:
 
-![ROC](ROC.png)
+![ROC](../images/ROC.png)
 
 
 ### Conclusion
