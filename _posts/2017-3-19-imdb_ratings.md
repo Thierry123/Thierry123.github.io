@@ -59,7 +59,7 @@ All told, I had about 8000 movies to do my modeling on. As per the plot below, t
 
 My target was to identify if a movie was highly rated or lowly rated, based on the median IMDB rating of 6.5 for my data set. 
 
-At first, I ran a cross validation on a Decision Tree Classifier and a Bagging Classifier. My features were the Actors, Directors and Genre ratings I engineered, coupled with Runtime, Year and Movie Ratings dummified. Those models yielded results of 65% and 69% respectively, with the Decision tree Classifier run again on a train-test split of my data, for a result on the test sample at 66%. The main features were 'Year' and 'Runtime'.
+At first, I ran a cross validation on a Decision Tree Classifier and a Bagging Classifier. My features were the Actors, Directors and Genre ratings I engineered, coupled with Runtime, Year and Movie Ratings dummified. Those models yielded results of 65% and 69% respectively, with the Decision tree Classifier run again on a train-test split of my data, for a result on the test sample at 66%. The main features were 'Year' and 'Runtime'. As seen below, there is a trend in the average IMDB rating per year, which can easily be understood: if I watch a movie from 1973, it tends to be a good one, while we tend to watch all sorts of recent movies.
 
 ![Average rating by year](../images/avg_rating_by_year.png)
 
