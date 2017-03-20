@@ -67,7 +67,9 @@ In quest of better results,  I got rid of the Genre ratings I created and the du
 
 I assumed that because I had buit my features on box office numbers, maybe I had built a model to identify box office success, rather than movie quality. I went back to scraping and got the movie grosses and ran a model to identify commercial success, instead of quality ratings. My model performed even worse, and that's when it hit me: I only had specific values for 837 actors and 867 directors, when the actors count was over 12,000. I didn't have enough separation on the actors to identify them properly in the model.
 
-I went back to the drawing board and made new dictionaries of actors and directors, where a person's value would be in the average IMDB rating of the movies they performed in. This model performed much better, with the Decision Tree Classifier success rate at 84%.
+I went back to the drawing board and made new dictionaries of actors and directors, where a person's value would be in the average IMDB rating of the movies they performed in. This model performed much better, with the Decision Tree Classifier success rate at 84%. The director rating over whelmed all other features in terms of importance.
+
+![Feature importance](../images/feature_imp_imdb.png)
 
 ### Conclusion
 
